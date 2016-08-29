@@ -1,9 +1,13 @@
 Package: anareg
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
+Title: Functions used in the analysis of the Anaphylaxis Registry
+Version: 0.1.0
 Date: 2015-04-04
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Author: person("Wojciech Francuzik",role=c("aut","cre","ths"),email="wojciech.francuzik@charite.de")
+Depends: R (>= 3.0.2), ggplot2, scales, MASS, plyr, dunn.test
+Suggests: knitr
+Maintainer: Wojciech Francuzik <wojciech.francuzik@charite.de>
+Description: Set of functions used in the analysis of Anaphylaxis Registry maintaned by the Charite Allergy Centrum in Berlin. 
+License: GPL-2
+VignetteBuilder: knitr
+LazyData: true
